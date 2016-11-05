@@ -59,7 +59,7 @@ namespace jackfacts.HL7.V24.Segment
             }
         }
 
-        public CE StainIdentifier
+        public CE Identifier
         {
             get
             {

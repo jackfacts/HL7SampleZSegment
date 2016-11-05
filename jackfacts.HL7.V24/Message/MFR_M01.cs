@@ -68,9 +68,9 @@ namespace jackfacts.HL7.V24.Message
         }
 
         /// <summary>
-        ///     Returns  first repetition of ZpvGroup (a Group object) - creates it if necessary
+        ///     Returns  first repetition of ZISGroup (a Group object) - creates it if necessary
         /// </summary>
-        public ZIS_GROUP GetZpvGroup()
+        public ZIS_GROUP GetZISGroup()
         {
             try
             {
@@ -85,36 +85,36 @@ namespace jackfacts.HL7.V24.Message
         }
 
         /// <summary>
-        ///     Returns a specific repetition of ZpvGroup
+        ///     Returns a specific repetition of ZISGroup
         ///     * (a Group object) - creates it if necessary
         ///     throws HL7Exception if the repetition requested is more than one
         ///     greater than the number of existing repetitions.
         /// </summary>
-        public ZIS_GROUP GetZpvGroup(int rep)
+        public ZIS_GROUP GetZISGroup(int rep)
         {
             return (ZIS_GROUP) GetStructure(nameof(ZIS_GROUP), rep);
         }
 
         /// <summary>
-        ///     Adds a new Zpv
+        ///     Adds a new ZIS
         /// </summary>
-        public ZIS_GROUP AddZpv()
+        public ZIS_GROUP AddZIS()
         {
             return AddStructure(nameof(ZIS_GROUP)) as ZIS_GROUP;
         }
 
         /// <summary>
-        ///     Removes the given Zpv
+        ///     Removes the given ZIS
         /// </summary>
-        public void RemoveZpv(ZIS_GROUP toRemove)
+        public void RemoveZIS(ZIS_GROUP toRemove)
         {
             RemoveStructure(nameof(ZIS_GROUP), toRemove);
         }
 
         /// <summary>
-        ///     Removes the Zpv at the given index
+        ///     Removes the ZIS at the given index
         /// </summary>
-        public void RemoveZpvAt(int index)
+        public void RemoveZISAt(int index)
         {
             RemoveRepetition(nameof(ZIS_GROUP), index);
         }
