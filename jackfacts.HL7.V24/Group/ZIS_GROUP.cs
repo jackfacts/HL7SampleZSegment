@@ -26,7 +26,7 @@ namespace jackfacts.HL7.V24.Group
         }
 
         /// <summary>
-        ///     Returns Zpv (any Z segment) - creates it if necessary
+        ///     Returns ZIS (any Z segment) - creates it if necessary
         /// </summary>
         public ZIS ZIS
         {

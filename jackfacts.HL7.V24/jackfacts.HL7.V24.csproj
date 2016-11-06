@@ -92,7 +92,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Group\ZVP_GROUP.cs" />
+    <Compile Include="Group\ZIS_GROUP.cs" />
     <Compile Include="Message\MFR_M01.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Segment\ZIS.cs" />
